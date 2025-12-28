@@ -1,0 +1,1 @@
+Delete wrong js file
