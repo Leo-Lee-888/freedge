@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freedge</title>
+
+    <!-- IMPORTANT: GitHub Pages project base path -->
+    <base href="/freedge/">
+
+    <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Firebase (compat) -->
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Local CSS (relative to /freedge/) -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Freedge</h1>
@@ -46,6 +56,7 @@
         <div id="mapid" style="height:400px;"></div>
     </section>
 
+    <!-- Local JS (relative to /freedge/) -->
     <script src="js/main.js"></script>
 </body>
 </html>
